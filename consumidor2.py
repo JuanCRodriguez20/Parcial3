@@ -4,7 +4,7 @@ from collections import deque
 import boto3
 
 region_name = 'us-east-1'
-stream_name = 'parcial3_stream'
+stream_name = 'parcial3'
 window_size = 20
 num_std_dev = 1
 kinesis = boto3.client('kinesis', region_name=region_name)
